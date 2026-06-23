@@ -24,33 +24,9 @@ My interests include:
 
 ## 🛠️ Technical Skills
 
-### Programming
+## 🛠 Tech Stack
 
-* Python
-* SQL
-* REST APIs
-* Object-Oriented Programming
-
-### Machine Learning
-
-* Classification
-* Regression
-* Random Forest
-* XGBoost
-* SVM
-* KNN
-* Feature Engineering
-* Hyperparameter Tuning
-
-### Generative AI & NLP
-
-* RAG
-* LangChain
-* FAISS
-* Hugging Face
-* Semantic Search
-* Transformers
-* Prompt Engineering
+Python • SQL • Scikit-Learn • XGBoost • Streamlit • FAISS • LangChain • HuggingFace • Power BI • Git
 
 ### Data Science & Analytics
 
@@ -61,16 +37,6 @@ My interests include:
 * Business Analytics
 * Data Visualization
 
-### Frameworks & Tools
-
-* Streamlit
-* Django
-* Flask
-* Git
-* GitHub
-* VS Code
-* Google Colab
-
 ### Visualization
 
 * Power BI
@@ -79,6 +45,19 @@ My interests include:
 * Seaborn
 
 ---
+## Featured AI Projects
+
+## ⚖️ AI Legal Document Assistant
+
+**Tech Stack:** Python, Streamlit, FAISS, HuggingFace, RAG
+
+* Built an AI-powered legal assistant capable of analyzing 100+ page legal documents.
+* Implemented semantic search using vector embeddings and FAISS.
+* Extracted legal clauses, risks, and contextual answers using Retrieval-Augmented Generation (RAG).
+* Improved response quality through prompt engineering and retrieval optimization.
+
+🔗 GitHub: [GitHub](https://github.com/dopymol/legal-rag-assistant)
+
 
 ## 💼 Experience
 
@@ -146,7 +125,7 @@ To contribute to innovative AI products and build scalable machine learning solu
 ## 📫 Connect With Me
 
 * 📧 Email: [drdona18@gmail.com](mailto:drdona18@gmail.com)
-* 💼 LinkedIn: https://www.linkedin.com/in/dopymol
-* 💻 GitHub: https://github.com/dopymol
+* 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/dopymol)
+* 💻 GitHub: [GitHub](https://github.com/dopymol)
 
 ⭐ If you like my work, feel free to connect and collaborate!
