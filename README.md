@@ -2,117 +2,129 @@
 
 ### AI/ML Engineer | Data Scientist | Generative AI Enthusiast
 
-Building intelligent solutions using Machine Learning, Data Science, NLP, and Generative AI.
+I build end-to-end AI and Machine Learning applications that solve real-world problems using Machine Learning, Computer Vision, NLP, Retrieval-Augmented Generation (RAG), and Data Analytics.
+
+My work focuses on designing practical AI solutions—from intelligent document assistants and predictive maintenance systems to fraud detection and computer vision applications.
 
 ---
 
-## 🚀 About Me
+### 🚀 Featured AI & Machine Learning Projects
 
-I'm an AI/ML Engineer with hands-on experience in Machine Learning, Data Science, Business Analytics, and Generative AI. I enjoy transforming complex datasets into actionable insights and building AI-powered applications that solve real-world problems.
+## ⚖️ AI Legal Document Assistant (RAG + LLM)
 
-My interests include:
+An intelligent legal assistant that enables users to upload legal documents and ask questions in natural language using Retrieval-Augmented Generation (RAG).
 
-* Machine Learning & Predictive Analytics
-* Natural Language Processing (NLP)
-* Generative AI & Large Language Models
-* Retrieval-Augmented Generation (RAG)
-* Data Visualization & Business Intelligence
-* Explainable AI (XAI)
-* AI-Powered Recommendation Systems
+# Highlights
+*Built a complete RAG pipeline using semantic search and LLMs.
+*Implemented FAISS vector search with Sentence Transformers embeddings.
+*Extracted legal clauses, risks, and contextual answers from lengthy legal documents.
+*Reduced hallucinations by grounding responses in retrieved document context.
+*Designed an interactive Streamlit interface for document analysis.
 
----
+# Tech Stack
 
-## 🛠️ Technical Skills
+Python • Streamlit • LangChain • FAISS • Sentence Transformers • Hugging Face • PDFPlumber
 
-## 🛠 Tech Stack
+🔗 Repository: [GitHub](https://github.com/dopymol/legal-rag-assistant)
 
-Python • SQL • Scikit-Learn • XGBoost • Streamlit • FAISS • LangChain • HuggingFace • Power BI • Git
+## PPE Compliance Detection using YOLO
 
-### Data Science & Analytics
+A computer vision application that detects workers and verifies Personal Protective Equipment (PPE) compliance from images and videos.
 
-* Data Cleaning
-* Data Preprocessing
-* Exploratory Data Analysis (EDA)
-* Statistical Analysis
-* Business Analytics
-* Data Visualization
+## Highlights
+*Developed a real-time PPE detection system using YOLO.
+*Identified safety violations including missing helmets, vests, and other PPE.
+*Supported image and video inference.
+*Generated compliance reports for workplace safety monitoring.
 
-### Visualization
+## Tech Stack
 
-* Power BI
-* Tableau
-* Matplotlib
-* Seaborn
+Python • YOLO • OpenCV • Streamlit
 
----
-## Featured AI Projects
+🔗 Repository: [GitHub](https://github.com/dopymol/PPE-Compliance-Monitoring-System)
 
-## ⚖️ AI Legal Document Assistant
+## 🔧 Predictive Maintenance System
 
-**Tech Stack:** Python, Streamlit, FAISS, HuggingFace, RAG
+A machine learning solution for predicting equipment failures using the NASA CMAPSS turbofan engine dataset.
 
-* Built an AI-powered legal assistant capable of analyzing 100+ page legal documents.
-* Implemented semantic search using vector embeddings and FAISS.
-* Extracted legal clauses, risks, and contextual answers using Retrieval-Augmented Generation (RAG).
-* Improved response quality through prompt engineering and retrieval optimization.
+## Highlights
+*Built predictive models to estimate Remaining Useful Life (RUL).
+*Achieved approximately 96% classification accuracy using XGBoost.
+*Integrated SHAP Explainable AI for prediction transparency.
+*Developed a Streamlit dashboard for real-time equipment health monitoring.
 
-🔗 GitHub: [GitHub](https://github.com/dopymol/legal-rag-assistant)
+## Tech Stack
 
+Python • XGBoost • Scikit-learn • SHAP • Pandas • Streamlit
 
-## 💼 Experience
+🔗 Repository: [GitHub](https://github.com/dopymol/predictive-maintenance-dashboard)
 
-### Data Science & Machine Learning Trainee
+## 💳 Credit Card Fraud Detection
 
-**Camerin | Nov 2025 – May 2026**
+A large-scale fraud detection system trained on over 6.3 million financial transactions.
 
-* Built and evaluated 5+ machine learning models
-* Developed dashboards and visualizations for business insights
-* Performed data preprocessing, feature engineering, and optimization
-* Worked on NLP and AI-driven projects
-* Collaborated on end-to-end AI/ML solution development
+## Highlights
+*Applied SMOTE to address severe class imbalance.
+*Built and evaluated multiple machine learning models.
+*Achieved 100% precision with 76% fraud recall using Random Forest.
+*Created interactive Power BI dashboards for fraud analysis and business insights.
 
-### Freelance Python Tutor
+## Tech Stack
 
-**Fiverr | Aug 2023 – Oct 2025**
+Python • Scikit-learn • Pandas • NumPy • Power BI
 
-* Delivered 50+ Python mentoring sessions
-* Guided learners in OOP, APIs, Django, Flask, and software development
-* Assisted with debugging and code optimization
+🔗 Repository: [GitHub](https://github.com/dopymol/financial-fraud-detection-ml-powerbi)
 
----
+## 🩺 MIRA AI Health Predictor
 
-## 📌 Featured Projects
+An AI-powered healthcare application that predicts health insights and manages patient records.
 
-### ⚖️ AI Legal Document Assistant
+## Highlights
+*Built a full-stack Django application with secure CRUD operations.
+*Integrated the Gemini API for AI-assisted health insights.
+*Added interactive dashboards using Chart.js.
+*Implemented data validation, analytics, and patient management features.
 
-* Built a RAG-powered legal assistant
-* Implemented semantic search using FAISS and transformer embeddings
-* Extracted clauses, risks, and summaries from legal documents
-* Developed using Streamlit and Hugging Face
+## Tech Stack
 
-### 💳 Financial Fraud Detection
+Python • Django • SQLite • Bootstrap • Gemini API • Chart.js
 
-* Trained machine learning models on 6.3M+ financial transactions
-* Applied SMOTE for class imbalance handling
-* Achieved 100% precision and 76% recall
-* Built Power BI dashboards for fraud analytics
+🔗 Repository: [GitHub](https://github.com/dopymol/mira-health-predictor)
 
-### 🔧 Predictive Maintenance System
+## 🛠 Technical Skills
 
-* Developed predictive maintenance models using NASA turbofan data
-* Achieved ~96% accuracy with XGBoost
-* Integrated SHAP for explainable AI
-* Deployed through Streamlit for real-time monitoring
+# Programming
 
----
+• Python • SQL
+
+# Machine Learning
+
+Scikit-learn • XGBoost • Feature Engineering • Model Evaluation • Explainable AI (SHAP)
+
+# Generative AI & NLP
+
+LangChain • FAISS • Hugging Face • Sentence Transformers • Retrieval-Augmented Generation (RAG) • Prompt Engineering
+
+# Computer Vision
+
+YOLO • OpenCV
+
+# Data Analytics & Visualization
+
+Power BI • Tableau • Pandas • NumPy • Matplotlib • Seaborn
+
+# Frameworks & Tools
+
+Django • Streamlit • Git • GitHub
 
 ## 📚 Currently Learning
 
-* Agentic AI Systems
-* Advanced RAG Architectures
-* LLM Evaluation & Optimization
-* MLOps Fundamentals
-* AI Recommendation Systems
+• Agentic AI Systems
+• LangGraph
+• MCP (Model Context Protocol)
+• Advanced RAG Architectures
+• LLM Evaluation
+• MLOps
 
 ---
 
