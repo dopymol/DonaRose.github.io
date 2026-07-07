@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Legal Document Assistant | Dona Rose</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <a href="../index.html" class="logo">Dona<span>Rose</span></a>
+    <div class="nav-links">
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="section project-detail">
+  <div class="container">
+
+    <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+
+    <div class="project-detail-hero">
+      <div>
+        <p class="eyebrow">RAG • NLP • Generative AI</p>
+        <h1>AI Legal Document Assistant</h1>
+        <p>
+          A Retrieval-Augmented Generation system that helps users upload legal documents,
+          ask questions, retrieve relevant clauses, and identify risks from lengthy contracts.
+        </p>
+
+        <div class="hero-actions">
+          <a href="https://github.com/dopymol/legal-rag-assistant" target="_blank" class="btn btn-primary">View GitHub</a>
+          <a href="../index.html#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <img src="../assets/legal-rag.png" alt="AI Legal RAG Screenshot" class="detail-image">
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-card">
+        <h2>Problem</h2>
+        <p>
+          Legal documents are lengthy and difficult to review manually. Users need a faster
+          way to search clauses, understand risks, and get contextual answers from contracts.
+        </p>
+      </div>
+
+      <div class="detail-card">
+        <h2>Solution</h2>
+        <p>
+          Built a RAG-based assistant that extracts document text, creates embeddings,
+          stores them in FAISS, retrieves relevant clauses, and generates grounded answers.
+        </p>
+      </div>
+
+      <div class="detail-card">
+        <h2>Key Features</h2>
+        <ul>
+          <li>PDF document parsing</li>
+          <li>Semantic search using FAISS</li>
+          <li>Clause-based question answering</li>
+          <li>Risk detection from legal documents</li>
+          <li>Source-grounded responses</li>
+        </ul>
+      </div>
+
+      <div class="detail-card">
+        <h2>Tech Stack</h2>
+        <p>Python • Streamlit • FAISS • Sentence Transformers • Hugging Face • RAG • PDFPlumber</p>
+      </div>
+    </div>
+
+    <div class="workflow-card">
+      <h2>Project Workflow</h2>
+      <div class="workflow">
+        <span>PDF Upload</span>
+        <span>Text Extraction</span>
+        <span>Chunking</span>
+        <span>Embeddings</span>
+        <span>FAISS Search</span>
+        <span>LLM Answer</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

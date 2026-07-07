@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predictive Maintenance System | Dona Rose</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <a href="../index.html" class="logo">Dona<span>Rose</span></a>
+    <div class="nav-links">
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="section project-detail">
+  <div class="container">
+
+    <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+
+    <div class="project-detail-hero">
+      <div>
+        <p class="eyebrow">Machine Learning • XGBoost • Explainable AI</p>
+        <h1>Predictive Maintenance System</h1>
+        <p>
+          A machine learning dashboard that predicts engine failure risk using NASA turbofan
+          sensor data and explains predictions with SHAP.
+        </p>
+
+        <div class="hero-actions">
+          <a href="https://github.com/dopymol/predictive-maintenance-dashboard" target="_blank" class="btn btn-primary">View GitHub</a>
+          <a href="../index.html#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <img src="../assets/predictive.png" alt="Predictive Maintenance Screenshot" class="detail-image">
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-card">
+        <h2>Problem</h2>
+        <p>
+          Industrial equipment failures can cause downtime and maintenance costs. The goal was
+          to predict failure risk early using sensor readings and engine operating cycles.
+        </p>
+      </div>
+
+      <div class="detail-card">
+        <h2>Solution</h2>
+        <p>
+          Built an XGBoost-based predictive maintenance model using NASA CMAPSS turbofan data,
+          then integrated SHAP explanations and a Streamlit monitoring dashboard.
+        </p>
+      </div>
+
+      <div class="detail-card">
+        <h2>Key Features</h2>
+        <ul>
+          <li>Sensor data preprocessing and feature engineering</li>
+          <li>Failure risk classification</li>
+          <li>Approximately 96% classification accuracy</li>
+          <li>SHAP-based explainability</li>
+          <li>Interactive Streamlit dashboard</li>
+        </ul>
+      </div>
+
+      <div class="detail-card">
+        <h2>Tech Stack</h2>
+        <p>Python • Pandas • Scikit-learn • XGBoost • SHAP • Streamlit</p>
+      </div>
+    </div>
+
+    <div class="workflow-card">
+      <h2>Project Workflow</h2>
+      <div class="workflow">
+        <span>NASA CMAPSS Data</span>
+        <span>Preprocessing</span>
+        <span>Feature Engineering</span>
+        <span>XGBoost Model</span>
+        <span>SHAP Explainability</span>
+        <span>Dashboard Output</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
