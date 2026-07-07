@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dona Rose | AI/ML Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Dona Rose - AI/ML Engineer, Data Scientist, Python Developer, and Generative AI enthusiast." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#" class="logo">Dona<span>Rose</span></a>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">☰</label>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content reveal">
+      <p class="eyebrow">Junior AI/ML Engineer • Data Scientist • Python Developer</p>
+      <div class="typing-line"><span>I work with </span><span id="typing-text"></span></div>
+      <h1>Building AI solutions that turn data into real-world applications.</h1>
+      <p class="hero-text">I build practical AI and machine learning projects using Python, Machine Learning, Generative AI, RAG, Computer Vision, Data Analytics, Django, and Streamlit.</p>
+
+      <div class="hero-stats">
+        <div><h3 class="counter" data-target="5">0</h3><p>AI/ML Projects</p></div>
+        <div><h3 class="counter" data-target="2">0</h3><p>Years Python Tutoring</p></div>
+        <div><h3 class="counter" data-target="96">0</h3><p>ML Accuracy</p></div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="https://drive.google.com/file/d/1Yb6u__9R9TtOc2ERhudRbWwosvw30UMh/view?usp=sharing" target="_blank" class="btn btn-outline">Resume</a>
+        <a href="https://github.com/dopymol" target="_blank" class="btn btn-outline">GitHub</a>
+        <a href="https://www.linkedin.com/in/dopymol/" target="_blank" class="btn btn-outline">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="hero-panel reveal">
+      <div class="panel-glow"></div>
+      <h2>Portfolio Focus</h2>
+      <div class="focus-tags">
+        <span>Machine Learning</span><span>Generative AI</span><span>RAG Systems</span>
+        <span>Computer Vision</span><span>Data Analytics</span><span>Django AI Apps</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tech-strip">
+  <div class="container tech-strip-grid">
+    <span>Python</span><span>Scikit-learn</span><span>XGBoost</span><span>LangChain</span>
+    <span>FAISS</span><span>YOLO</span><span>Django</span><span>Power BI</span>
+  </div>
+</section>
+
+<section id="projects" class="section projects">
+  <div class="container">
+    <div class="section-heading reveal">
+      <p class="eyebrow">Featured Work</p>
+      <h2>AI & Machine Learning Projects</h2>
+      <p>A curated collection of end-to-end projects across Generative AI, Machine Learning, Computer Vision, NLP, and Business Analytics.</p>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-card reveal">
+        <div class="project-card-top"><span class="project-badge">Featured GenAI Project</span><span class="project-number">01</span></div>
+        <h3>AI Legal Document Assistant</h3>
+        <p class="project-summary">RAG-powered assistant for uploading legal documents, asking questions, retrieving relevant clauses, and identifying risks using semantic search.</p>
+        <div class="project-image-box"><img src="assets/legal-rag.png" alt="AI Legal Document Assistant Screenshot"></div>
+        <div class="project-metrics"><div><strong>RAG</strong><span>Architecture</span></div><div><strong>FAISS</strong><span>Vector Search</span></div><div><strong>PDF QA</strong><span>Document AI</span></div></div>
+        <div class="project-info-grid"><div><h4>Problem</h4><p>Legal documents are lengthy and difficult to search manually.</p></div><div><h4>Solution</h4><p>Built a retrieval-based assistant that grounds answers in relevant clauses.</p></div></div>
+        <div class="tags"><span>Python</span><span>Streamlit</span><span>FAISS</span><span>RAG</span><span>Hugging Face</span></div>
+        <div class="project-actions"><a href="https://github.com/dopymol/legal-rag-assistant" target="_blank">View GitHub</a><a href="pages/legal-rag.html">Read Case Study</a></div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card-top"><span class="project-badge">Computer Vision</span><span class="project-number">02</span></div>
+        <h3>PPE Compliance Detection using YOLO</h3>
+        <p class="project-summary">YOLO-based computer vision system for detecting workers and checking PPE compliance from images and videos.</p>
+        <div class="project-image-box"><img src="assets/ppe.png" alt="PPE Compliance Detection Screenshot"></div>
+        <div class="project-metrics"><div><strong>YOLO</strong><span>Detection</span></div><div><strong>Image/Video</strong><span>Input</span></div><div><strong>PPE</strong><span>Compliance</span></div></div>
+        <div class="project-info-grid"><div><h4>Problem</h4><p>Workplace PPE monitoring is difficult to perform manually at scale.</p></div><div><h4>Solution</h4><p>Used YOLO detection to identify PPE items and violation status.</p></div></div>
+        <div class="tags"><span>Python</span><span>YOLO</span><span>OpenCV</span><span>Streamlit</span></div>
+        <div class="project-actions"><a href="https://github.com/dopymol/PPE-Compliance-Monitoring-System" target="_blank">View GitHub</a><a href="pages/ppe.html">Read Case Study</a></div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card-top"><span class="project-badge">Predictive ML</span><span class="project-number">03</span></div>
+        <h3>Predictive Maintenance System</h3>
+        <p class="project-summary">Machine learning dashboard that predicts engine failure risk using NASA turbofan sensor data and explains predictions using SHAP.</p>
+        <div class="project-image-box"><img src="assets/predictive.png" alt="Predictive Maintenance Dashboard Screenshot"></div>
+        <div class="project-metrics"><div><strong>96%</strong><span>Accuracy</span></div><div><strong>SHAP</strong><span>Explainability</span></div><div><strong>NASA</strong><span>CMAPSS</span></div></div>
+        <div class="project-info-grid"><div><h4>Problem</h4><p>Unexpected equipment failures cause downtime and maintenance cost.</p></div><div><h4>Solution</h4><p>Built an XGBoost model with explainability and dashboard monitoring.</p></div></div>
+        <div class="tags"><span>Python</span><span>XGBoost</span><span>SHAP</span><span>Scikit-learn</span><span>Streamlit</span></div>
+        <div class="project-actions"><a href="https://github.com/dopymol/predictive-maintenance-dashboard" target="_blank">View GitHub</a><a href="pages/predictive.html">Read Case Study</a></div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card-top"><span class="project-badge">Data Science</span><span class="project-number">04</span></div>
+        <h3>Credit Card Fraud Detection</h3>
+        <p class="project-summary">Fraud detection system trained on 6.3M+ financial transactions with imbalance handling and Power BI fraud analytics.</p>
+        <div class="project-image-box"><img src="assets/fraud.png" alt="Credit Card Fraud Detection Dashboard Screenshot"></div>
+        <div class="project-metrics"><div><strong>6.3M+</strong><span>Records</span></div><div><strong>100%</strong><span>Precision</span></div><div><strong>76%</strong><span>Recall</span></div></div>
+        <div class="project-info-grid"><div><h4>Problem</h4><p>Fraud is rare, making detection difficult with imbalanced datasets.</p></div><div><h4>Solution</h4><p>Applied SMOTE, trained ML models, and visualized fraud patterns in Power BI.</p></div></div>
+        <div class="tags"><span>Python</span><span>Scikit-learn</span><span>SMOTE</span><span>Power BI</span></div>
+        <div class="project-actions"><a href="https://github.com/dopymol/financial-fraud-detection-ml-powerbi" target="_blank">View GitHub</a><a href="pages/fraud.html">Read Case Study</a></div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card-top"><span class="project-badge">AI Web App</span><span class="project-number">05</span></div>
+        <h3>MIRA AI Health Predictor</h3>
+        <p class="project-summary">Django healthcare application for managing patient records, generating AI-assisted remarks, and visualizing health analytics.</p>
+        <div class="project-image-box"><img src="assets/mira.png" alt="MIRA AI Health Predictor Screenshot"></div>
+        <div class="project-metrics"><div><strong>Django</strong><span>Web App</span></div><div><strong>Gemini</strong><span>AI Remarks</span></div><div><strong>Charts</strong><span>Analytics</span></div></div>
+        <div class="project-info-grid"><div><h4>Problem</h4><p>Patient health records need organized storage and quick insights.</p></div><div><h4>Solution</h4><p>Built a Django app with Gemini API remarks and dashboard analytics.</p></div></div>
+        <div class="tags"><span>Django</span><span>Gemini API</span><span>SQLite</span><span>Bootstrap</span><span>Chart.js</span></div>
+        <div class="project-actions"><a href="https://github.com/dopymol/mira-health-predictor" target="_blank">View GitHub</a><a href="pages/mira.html">Read Case Study</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section skills">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">Technical Stack</p><h2>Skills I Use in Projects</h2></div>
+    <div class="skills-grid">
+      <div class="skill-box reveal"><h3>Programming</h3><p>Python, SQL</p></div>
+      <div class="skill-box reveal"><h3>Machine Learning</h3><p>Scikit-learn, XGBoost, Random Forest, SMOTE, Model Evaluation, Feature Engineering</p></div>
+      <div class="skill-box reveal"><h3>Generative AI & NLP</h3><p>RAG, LangChain, FAISS, Hugging Face, Sentence Transformers, Prompt Engineering</p></div>
+      <div class="skill-box reveal"><h3>Computer Vision</h3><p>YOLO, OpenCV, Image Processing, Object Detection</p></div>
+      <div class="skill-box reveal"><h3>Data Analytics</h3><p>Power BI, Tableau, Pandas, NumPy, Matplotlib, Seaborn</p></div>
+      <div class="skill-box reveal"><h3>Web & Tools</h3><p>Django, Streamlit, Bootstrap, SQLite, Git, GitHub</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section experience">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">Background</p><h2>Experience</h2></div>
+    <div class="timeline">
+      <div class="timeline-item reveal"><div class="timeline-dot"></div><div><h3>Data Science & Machine Learning Trainee</h3><p class="company">Camerin | Nov 2025 – May 2026</p><p>Built and evaluated machine learning models, performed preprocessing, feature engineering, EDA, model optimization, and created dashboards for business insights.</p></div></div>
+      <div class="timeline-item reveal"><div class="timeline-dot"></div><div><h3>Freelance Python Tutor</h3><p class="company">Fiverr | Aug 2023 – Oct 2025</p><p>Mentored learners in Python, OOP, APIs, Django, Flask, SQL, debugging, project development, and machine learning fundamentals.</p></div></div>
+      <div class="timeline-item reveal"><div class="timeline-dot"></div><div><h3>Python Developer Intern</h3><p class="company">Inmakes Infotech | Dec 2022 – Mar 2023</p><p>Worked on Django-based web development, frontend templates, backend logic, SQLite databases, and project-based application development.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="learning" class="section learning">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">Currently Exploring</p><h2>Learning Focus</h2></div>
+    <div class="learning-list reveal"><span>Agentic AI</span><span>LangGraph</span><span>MCP</span><span>Advanced RAG</span><span>LLM Evaluation</span><span>MLOps Fundamentals</span></div>
+  </div>
+</section>
+
+<section id="certifications" class="section certifications">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">Credentials</p><h2>Certifications & Training</h2></div>
+    <div class="cert-grid">
+      <div class="cert-card reveal"><h3>Data Science & Machine Learning Internship</h3><p>Camerin</p></div>
+      <div class="cert-card reveal"><h3>Applied Data Science Lab</h3><p>WorldQuant University</p></div>
+      <div class="cert-card reveal"><h3>Python Development Internship</h3><p>Inmakes Infotech</p></div>
+      <div class="cert-card reveal"><h3>Data Science with AI</h3><p>Internshala Trainings</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="container contact-box reveal">
+    <h2>Open to AI/ML and Data Science Opportunities</h2>
+    <p>I am actively looking for Junior AI/ML Engineer, Data Scientist, and Generative AI Developer roles.</p>
+    <div class="contact-actions">
+      <a href="mailto:drdona18@gmail.com" class="btn btn-primary">Email Me</a>
+      <a href="https://github.com/dopymol" target="_blank" class="btn btn-outline">GitHub</a>
+      <a href="https://www.linkedin.com/in/dopymol/" target="_blank" class="btn btn-outline">LinkedIn</a>
+      <a href="https://drive.google.com/file/d/1Yb6u__9R9TtOc2ERhudRbWwosvw30UMh/view?usp=sharing" target="_blank" class="btn btn-outline">Resume</a>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="footer"><p>© 2026 Dona Rose. Built with HTML, CSS, JavaScript, and GitHub Pages.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
